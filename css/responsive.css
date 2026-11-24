@@ -1,0 +1,256 @@
+/* Responsive part start */
+
+/* XXL: >= 1400px */
+@media (min-width: 1400px) {
+  .hero-title {
+    font-size: 58.4px;
+  }
+
+  .experience-title {
+    font-size: 52px;
+  }
+
+  .cta-title {
+    font-size: 46.4px;
+  }
+
+  .section-title {
+    font-size: 44px;
+  }
+
+  .stat-number {
+    font-size: 48px;
+  }
+}
+
+/* XL: 1200px - 1399.98px */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+  .hero-title {
+    font-size: 52.8px;
+  }
+
+  .experience-title {
+    font-size: 45.6px;
+  }
+
+  .cta-title {
+    font-size: 42px;
+  }
+
+  .section-title {
+    font-size: 38.4px;
+  }
+
+  .stat-number {
+    font-size: 42px;
+  }
+}
+
+/* LG: 992px - 1199.98px */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .hero-title {
+    font-size: 44px;
+  }
+
+  .experience-title {
+    font-size: 38px;
+  }
+
+  .cta-title {
+    font-size: 35px;
+  }
+
+  .section-title {
+    font-size: 32px;
+  }
+
+  .stat-number {
+    font-size: 36px;
+  }
+}
+
+/* MD: 768px - 991.98px */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .navbar-nav {
+    margin-bottom: 16px;
+    gap: 0;
+  }
+
+  .hero-section {
+    padding: 56px 0 64px;
+  }
+
+  .hero-content,
+  .experience-content,
+  .portfolio-heading,
+  .portfolio-intro {
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 34.4px;
+  }
+
+  .experience-title {
+    font-size: 30.4px;
+  }
+
+  .cta-title {
+    font-size: 29.6px;
+  }
+
+  .section-title {
+    font-size: 29.6px;
+  }
+
+  .stat-number {
+    font-size: 32px;
+  }
+
+  .experience-section,
+  .testimonials-section {
+    padding: 72px 0;
+  }
+
+  .footer-card {
+    padding: 52px 32px 36px;
+  }
+}
+
+/* SM: 576px - 767.98px */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .navbar-nav {
+    margin-bottom: 16px;
+    gap: 0;
+  }
+
+  .hero-section {
+    padding: 56px 0 64px;
+  }
+
+  .hero-content,
+  .experience-content,
+  .portfolio-heading,
+  .portfolio-intro {
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 34.4px;
+  }
+
+  .experience-title {
+    font-size: 30.4px;
+  }
+
+  .cta-title {
+    font-size: 29.6px;
+  }
+
+  .section-title {
+    font-size: 29.6px;
+  }
+
+  .stat-number {
+    font-size: 32px;
+  }
+
+  .experience-section,
+  .testimonials-section {
+    padding: 72px 0;
+  }
+
+  .footer-card {
+    padding: 52px 32px 36px;
+  }
+
+  .footer-divider {
+    margin: 24px 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+
+/* XS: <= 575.98px */
+@media (max-width: 575.98px) {
+  .navbar-nav {
+    margin-bottom: 16px;
+    gap: 0;
+  }
+
+  .hero-section {
+    padding: 56px 0 64px;
+  }
+
+  .hero-content,
+  .experience-content,
+  .portfolio-heading,
+  .portfolio-intro {
+    text-align: center;
+  }
+
+  .hero-actions {
+    justify-content: center;
+  }
+
+  .hero-title {
+    font-size: 34.4px;
+  }
+
+  .experience-title {
+    font-size: 30.4px;
+  }
+
+  .cta-title {
+    font-size: 29.6px;
+  }
+
+  .section-title {
+    font-size: 29.6px;
+  }
+
+  .stat-number {
+    font-size: 32px;
+  }
+
+  .experience-section,
+  .testimonials-section {
+    padding: 72px 0;
+  }
+
+  .portfolio-thumb {
+    height: 220px;
+  }
+
+  .testimonial-card {
+    padding: 28px;
+  }
+
+  .cta-banner {
+    padding: 60px 20px;
+  }
+
+  .footer-card {
+    padding: 44px 24px 32px;
+  }
+
+  .footer-divider {
+    margin: 24px 0;
+  }
+
+  .footer-bottom {
+    flex-direction: column;
+  }
+}
+
+/* Responsive part end */
