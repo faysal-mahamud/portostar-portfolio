@@ -1,0 +1,100 @@
+/* Common css part start */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root,
+html {
+  scroll-behavior: auto !important;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: #6b6b78;
+  background-color: #ffffff;
+  overflow-x: hidden;
+  line-height: 1.7;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.section-eyebrow {
+  display: inline-block;
+  font-size: 15px;
+  font-weight: 600;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #5e3bee;
+  margin-bottom: 8px;
+}
+
+.section-title {
+  font-size: 44px;
+  font-weight: 700;
+  color: #1c1c1c;
+  line-height: 1.25;
+  margin-bottom: 16px;
+}
+
+.section-subtitle {
+  font-size: 15.6px;
+  color: #6b6b78;
+  line-height: 1.8;
+  margin-bottom: 0;
+}
+
+.section-header {
+  max-width: 620px;
+  margin: 0 auto 48px;
+  text-align: center;
+}
+
+.btn-primary-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #5e3bee;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 15.2px 33.6px;
+  border-radius: 50px;
+  border: 2px solid #5e3bee;
+  transition: all 0.25s ease;
+  text-decoration: none;
+}
+
+.btn-primary-pill:hover,
+.btn-primary-pill:focus {
+  background-color: #4b2bd6;
+  border-color: #4b2bd6;
+  color: #ffffff;
+  transform: translateY(-2px);
+  box-shadow: 0 10px 24px rgba(94, 59, 238, 0.28);
+}
+
+.btn-sm-pill {
+  padding: 10.4px 24px;
+  font-size: 13px;
+}
+
+.btn-icon-left {
+  margin-right: 8px;
+}
+
+.btn-icon-right {
+  margin-left: 8px;
+}
+/* Common css part end */
+
