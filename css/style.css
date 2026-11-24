@@ -297,3 +297,34 @@ a {
 }
 /* Services part end */
 
+/* Experience part start */
+.experience-section {
+  background-color: #f9f9fc;
+  background-image: url("../images/Group 42.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 104px 0;
+}
+
+.experience-row {
+  align-items: center;
+}
+
+.experience-content {
+  text-align: left;
+}
+
+.experience-title {
+  font-size: 52px;
+  font-weight: 700;
+  color: #333333;
+  line-height: 1.25;
+  margin-bottom: 24px;
+}
+
+.experience-desc {
+  margin-bottom: 24px;
+}
+/* Experience part end */
+
